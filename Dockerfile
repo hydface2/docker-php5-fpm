@@ -2,6 +2,7 @@ FROM cravler/php5-fpm
 MAINTAINER Sergei Vizel <sergei.vizel@modera.org>
 
 # Common environment variables
+ENV TZ Europe/Tallinn
 ENV PHP5_DATE_TIMEZONE Europe/Tallinn
 
 # All our dependencies, in alphabetical order (to ease maintenance)
